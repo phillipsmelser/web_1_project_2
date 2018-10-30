@@ -1,0 +1,36 @@
+.background {
+    background: url(assets/textures/az_subtle.png);
+    height: 1000px;
+}
+
+.icons {
+    align-self: center;
+    width: 30px;
+    border-radius: 5px;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-nav {
+    display: flex;
+    border: solid;
+
+}
+
+.right-nav {
+    display: flex;
+    flex-direction: column;
+    border: solid;
+}
+
+ul {
+    list-style-type: none;
+   
+}
+
+nav {
+    display: flex;
+}
