@@ -28,7 +28,6 @@ nav {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    border: solid;
 }
 
 a {
