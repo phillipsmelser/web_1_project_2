@@ -100,7 +100,60 @@
     width: 300px;
     height: 30px;
     border: solid;
+    display: flex;
+    justify-content: center;
+    background: url("assets/textures/az_subtle.png");
 }
+
+.banner {
+    height: 50px;
+    background-color: forestgreen;
+    display: flex;
+    border: solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.bird {
+    width: 20px;
+    align-self: center;
+}
+
+.banner-text {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    background: url("assets/textures/az_subtle.png");
+    border: solid;
+}
+
+.bottom-row {
+    width: 29%;
+    margin: 2%;
+    border: solid;
+}
+.gallery-small {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-gallery-small {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+}
+
+.left-nav-bottom {
+    display: flex;
+    border: solid;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
 nav {
     background: url("assets/textures/az_subtle.png");
     height: 100px;
@@ -112,6 +165,5 @@ a {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
-
 }
 
