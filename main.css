@@ -3,7 +3,8 @@
 .icons {
     align-self: center;
     width: 30px;
-    border-radius: 5px;
+    border-radius: 3px;
+    margin-right: 10px;
 }
 
 .social-media {
@@ -20,10 +21,16 @@
     justify-content: flex-end;
 }
 
+.login {
+    margin-right: 20px;
+    border-right: solid;
+    padding-right: 17px;
+}
+
 .left-nav {
     display: flex;
     border: solid;
-    width: 500px;
+    width: 400px;
     justify-content: space-between;
     align-items: center;
 }
@@ -40,28 +47,42 @@
 .right-arrow,
 .left-arrow {
     width: 50px;
-    align-self: center;
+    position: absolute;
+	top: 43vh;
+}
+
+.left-arrow {
+	left: -20px;
+}
+
+.right-arrow {
+	right: -20px;
 }
 
 .main-image {
-    display: flex;
-    height: 800px;
     border: solid;
-    align-items: center;
     background: url("assets/images/SmelserPhillip_Assign_6_Exterior_HDR.jpg");
-    background-size: cover;
+    position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+    margin: 0% 5%;
 }
 
-.left {
-    display: flex;
-    border: solid;
+.main-image-banner {
+    position: absolute;
+    bottom: 0;
+    margin-right: 20px;
+	width: 100%;
+	text-align: right;
+	background-color: rgba(0,0,0, .6);
+    color: white;
+    
 }
 
-.right {
-    display: flex;
-    border: solid;
-    justify-content: flex-end;
-    width: 100%;
+.main-image-text {
+	margin-right: 30px;
 }
 
 .headline {
@@ -70,30 +91,29 @@
     border: solid;
     align-items: center;
     justify-content: center;
+    margin: 0% 5%;
 }
 
 .gallery {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     border: solid;
+    margin: 0% 5%;
 }
 
 .image-gallery {
-    width: 100%;
-    height: 175px;
-}
-
-.row {
     width: 21%;
     margin: 2%;
-    border: solid;
+    align-self: center;
 }
+
 
 .view-more {
     height: 75px;
     border: solid;
     display: flex;
     justify-content: center;
+    margin: 0% 5%;
 }
 
 .view-more-link {
@@ -112,6 +132,7 @@
     border: solid;
     align-items: center;
     justify-content: center;
+    margin: 0% 5%;
 }
 
 .bird {
@@ -127,23 +148,32 @@
     display: flex;
     background: url("assets/textures/az_subtle.png");
     border: solid;
+    margin: 0% 5%;
 }
+
+.footer-text,
+.search-text {
+    color: forestgreen;
+}
+
 
 .bottom-row {
     width: 29%;
     margin: 2%;
     border: solid;
 }
+
+
 .gallery-small {
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    border: solid;
 }
 
 .image-gallery-small {
-    display: flex;
-    flex-direction: column;
-    width: 50px;
-    height: 50px;
+    width: 21%;
+    margin: 2%;
+    align-self: center;
 }
 
 .left-nav-bottom {
@@ -159,6 +189,7 @@ nav {
     height: 100px;
     display: flex;
     justify-content: space-between;
+    margin: 0% 5%;
 }
 
 a {
