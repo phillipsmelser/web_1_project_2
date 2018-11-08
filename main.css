@@ -27,7 +27,8 @@ h2 {
 h3 {
     text-transform: uppercase;
     font-family: Museo;
-    font-size: 16px; 
+    font-size: 16px;
+    color: darkslategray;
 }
 
 h5 {
@@ -58,6 +59,12 @@ p {
     margin-right: 10px;
 }
 
+.icons-twitter {
+    align-self: center;
+    width: 30px;
+    border-radius: 3px;
+}
+
 .social-media {
     display: flex;
     width: 100%;
@@ -72,8 +79,8 @@ p {
 
 .login {
     margin-right: 20px;
-    border-right: solid;
-    padding-right: 17px;
+    border-right: solid slategray 2px;
+    padding-right: 19px;
 }
 
 .left-nav {
@@ -160,7 +167,8 @@ p {
 
 .headline {
     display: flex;
-    height: 150px;
+    height: 80px;
+    padding-top: 25px;
     align-items: center;
     justify-content: center;
     margin: 0% 5%;
@@ -209,7 +217,7 @@ p {
 
 .banner {
     height: 50px;
-    background-color: slategray;
+    background-color: lightslategray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -271,7 +279,7 @@ p {
     text-transform: uppercase;
     font-family: Museo;
     font-size: 14px;
-    color: red;
+    color: firebrick;
 }
 
 .alt-view {
@@ -330,7 +338,7 @@ p {
     border: solid;
     font-family: Museo;
     font-size: 14px;
-    color: red;
+    color: firebrick;
 }
 
 .portfolio-header {
@@ -348,7 +356,7 @@ p {
 .read-more-link {
     text-decoration: none;
     font-family: Museo;
-    color: red;
+    color: firebrick;
 }
 
 @media (max-width: 1024px) {
