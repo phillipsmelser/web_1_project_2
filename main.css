@@ -1,4 +1,18 @@
 
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    text-transform: uppercase; 
+}
+
+h6 {
+    text-align: right;
+    padding-right: 10px;
+}
 
 .icons {
     align-self: center;
@@ -10,14 +24,12 @@
 .social-media {
     display: flex;
     width: 100%;
-    border: solid;
     justify-content: flex-end;
 }
 
 .login-register {
     display: flex;
     width: 100%;
-    border: solid;
     justify-content: flex-end;
 }
 
@@ -29,19 +41,19 @@
 
 .left-nav {
     display: flex;
-    border: solid;
     width: 400px;
     justify-content: space-between;
     align-items: center;
+    padding-left: 70px;
 }
 
 .right-nav {
     display: flex;
     flex-direction: column;
-    border: solid;
     justify-content: space-around;
     margin-left: auto;
     width: 200px;
+    padding-right: 70px;
 }
 
 .right-arrow,
@@ -60,7 +72,6 @@
 }
 
 .main-image {
-    border: solid;
     background: url("assets/images/SmelserPhillip_Assign_6_Exterior_HDR.jpg");
     position: relative;
 	background-size: cover;
@@ -68,6 +79,30 @@
 	background-position: center;
 	height: 100vh;
     margin: 0% 5%;
+}
+
+.right-arrow-student,
+.left-arrow-student {
+    width: 30px;
+    position: absolute;
+	top: 20vh;
+}
+
+.left-arrow-student {
+	left: -10px;
+}
+
+.right-arrow-student {
+	right: -10px;
+}
+
+.main-image-student {
+    background: url("assets/images/SmelserPhillip_Assign_6_Exterior_HDR.jpg");
+    position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50vh;
 }
 
 .main-image-banner {
@@ -88,7 +123,6 @@
 .headline {
     display: flex;
     height: 150px;
-    border: solid;
     align-items: center;
     justify-content: center;
     margin: 0% 5%;
@@ -97,7 +131,6 @@
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    border: solid;
     margin: 0% 5%;
 }
 
@@ -109,46 +142,44 @@
 
 
 .view-more {
-    height: 75px;
-    border: solid;
+    margin: 0% 5%;
     display: flex;
     justify-content: center;
-    margin: 0% 5%;
+    padding-bottom: 40px;
 }
 
 .view-more-link {
-    width: 300px;
-    height: 30px;
-    border: solid;
-    display: flex;
-    justify-content: center;
     background: url("assets/textures/az_subtle.png");
+    background-color: #ccc;
+	background-blend-mode: multiply;
+    color: white;
+    text-decoration: none;
+    padding: 10px 70px;
+}
+
+.view-more-link:hover {
+	background-color: #ddd;
 }
 
 .banner {
     height: 50px;
     background-color: forestgreen;
     display: flex;
-    border: solid;
     align-items: center;
     justify-content: center;
-    margin: 0% 5%;
 }
 
 .bird {
     width: 20px;
     align-self: center;
-}
-
-.banner-text {
-    display: flex;
+    padding-right: 10px;
 }
 
 .footer {
     display: flex;
     background: url("assets/textures/az_subtle.png");
-    border: solid;
-    margin: 0% 5%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .footer-text,
@@ -156,18 +187,14 @@
     color: forestgreen;
 }
 
-
 .bottom-row {
-    width: 29%;
+    flex: 1;
     margin: 2%;
-    border: solid;
 }
-
 
 .gallery-small {
     display: flex;
     flex-wrap: wrap;
-    border: solid;
 }
 
 .image-gallery-small {
@@ -178,23 +205,78 @@
 
 .left-nav-bottom {
     display: flex;
-    border: solid;
     width: 100%;
     justify-content: space-between;
     align-items: center;
 }
 
-nav {
-    background: url("assets/textures/az_subtle.png");
-    height: 100px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0% 5%;
-}
-
-a {
+.link,
+.login,
+.register {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
 }
 
+.alt-view {
+    display: flex;
+}
+
+.alt-view-image {
+    width: 29%;
+    margin: 2%;
+    align-self: center;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+}
+
+.email-headshot {
+    display: flex;
+}
+
+.headshot {
+    display: flex;
+    width: 32%;
+}
+
+.headshot-image {
+    width: 100%;
+    align-self: center;
+
+}
+
+.sub-main {
+    display: flex;
+    margin: 0% 5%;
+    padding-top: 10px;
+}
+
+.hdr-images {
+    width: 68%;
+}
+
+.profile {
+    width: 32%;
+}
+
+.email-link {
+    text-decoration: none;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.portfolio-header {
+    margin: 0% 6.5%;
+    height: 40px;
+    padding-top: 30px;
+}
+
+.project-text {
+    padding-right: 20px;
+    padding-left: 30px;
+}
