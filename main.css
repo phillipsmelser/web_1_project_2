@@ -271,6 +271,7 @@ p {
     text-transform: uppercase;
     font-family: Museo;
     font-size: 14px;
+    color: red;
 }
 
 .alt-view {
@@ -329,6 +330,7 @@ p {
     border: solid;
     font-family: Museo;
     font-size: 14px;
+    color: red;
 }
 
 .portfolio-header {
@@ -346,6 +348,7 @@ p {
 .read-more-link {
     text-decoration: none;
     font-family: Museo;
+    color: red;
 }
 
 @media (max-width: 1024px) {
