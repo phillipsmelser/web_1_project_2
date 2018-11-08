@@ -1,23 +1,54 @@
 
+
+@font-face {
+    font-family: Museo;
+    src: local("Museo"),
+         url(assets/fonts/museo/museo-300-webfont.woff) format('woff');
+  }
+
 nav {
     height: 100px;
     display: flex;
     justify-content: space-between;
 }
 
+h1 {
+    font-size: 22px;
+}
+
 h2 {
     text-align: center;
     padding-right: 50px;
+    font-family: Museo;
+    font-size: 16px;
+    color: white;
 }
 
 h3 {
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    font-family: Museo;
+    font-size: 16px; 
+}
+
+h5 {
+    font-size: 16px;
 }
 
 h6 {
     text-align: right;
     padding-right: 10px;
     border: solid;
+    font-family: Museo;
+    font-size: 14px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.span {
+    font-size: 11px;
+    color: white;
 }
 
 .icons {
@@ -123,7 +154,8 @@ h6 {
 }
 
 .main-image-text {
-	margin-right: 30px;
+    margin-right: 30px;
+    font-family: Museo;
 }
 
 .headline {
@@ -136,12 +168,14 @@ h6 {
 
 .headline-text {
     text-align: center;
+    font-family: Museo;
 }
 
 .gallery {
     display: flex;
     flex-wrap: wrap;
     margin: 0% 5%;
+    padding-bottom: 25px;
 }
 
 .image-gallery {
@@ -165,6 +199,8 @@ h6 {
     color: white;
     text-decoration: none;
     padding: 10px 70px;
+    font-family: Museo;
+    font-size: 18px;
 }
 
 .view-more-link:hover {
@@ -173,7 +209,7 @@ h6 {
 
 .banner {
     height: 50px;
-    background-color: forestgreen;
+    background-color: slategray;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -189,6 +225,8 @@ h6 {
 .footer {
     display: flex;
     background: url("assets/textures/az_subtle.png");
+    background-color: #ccc;
+	background-blend-mode: multiply;
     padding-left: 50px;
     padding-right: 50px;
 }
@@ -196,6 +234,9 @@ h6 {
 .footer-text,
 .search-text {
     color: forestgreen;
+    font-family: Museo;
+    font-size: 14px;
+    color: white;
 }
 
 .bottom-row {
@@ -219,7 +260,7 @@ h6 {
     width: 100%;
     justify-content: space-between;
     align-items: center;
-    max-width: 350px;
+    max-width: 355px;
 }
 
 .link,
@@ -228,6 +269,8 @@ h6 {
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: Museo;
+    font-size: 14px;
 }
 
 .alt-view {
@@ -284,6 +327,8 @@ h6 {
     padding-right: 10px;
     padding-bottom: 10px;
     border: solid;
+    font-family: Museo;
+    font-size: 14px;
 }
 
 .portfolio-header {
@@ -295,10 +340,12 @@ h6 {
 .project-text {
     padding-right: 30px;
     padding-left: 30px;
+    font-family: Museo;
 }
 
 .read-more-link {
     text-decoration: none;
+    font-family: Museo;
 }
 
 @media (max-width: 1024px) {
