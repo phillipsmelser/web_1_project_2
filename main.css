@@ -37,8 +37,10 @@ h5 {
 
 h6 {
     text-align: right;
+    padding-top: 10px;
     padding-right: 10px;
-    border: solid;
+    padding-bottom: 5px;
+    margin: 0;
     font-family: Museo;
     font-size: 14px;
 }
@@ -133,11 +135,11 @@ p {
 }
 
 .left-arrow-student {
-	left: -10px;
+	left: -12px;
 }
 
 .right-arrow-student {
-	right: -10px;
+	right: -12px;
 }
 
 .main-image-student {
@@ -292,26 +294,21 @@ p {
     align-self: center;
 }
 
+.email-headshot {
+    display: flex;
+    justify-content: flex-end;
+}
+
 .email {
     display: flex;
     flex-direction: column;
-    width: 68%;
-}
-
-.email-headshot {
-    display: flex;
-    border: solid;
-}
-
-.headshot {
-    display: flex;
-    width: 32%;
 }
 
 .headshot-image {
-    width: 100%;
+    width: 80px;
+    height: 94px;
     align-self: center;
-
+    
 }
 
 .sub-main {
@@ -322,12 +319,10 @@ p {
 
 .hdr-images {
     width: 68%;
-    border: solid;
 }
 
 .profile {
     width: 32%;
-    border: solid;
 }
 
 .email-link {
@@ -335,7 +330,6 @@ p {
     text-align: right;
     padding-right: 10px;
     padding-bottom: 10px;
-    border: solid;
     font-family: Museo;
     font-size: 14px;
     color: firebrick;
@@ -360,12 +354,20 @@ p {
 }
 
 @media (max-width: 1024px) {
-    .footer {
+    .footer,
+    .sub-main {
         flex-direction: column;
     }
-}
 
-@media (max-width: 1024px) and (orientation: portrait)  {
+    .hdr-images {
+        padding-bottom: 40px;
+    }
+
+    .hdr-images,
+    .profile {
+        width: 100%;
+    }
+
     .main-image {
         height: 50vh;
     }
@@ -373,13 +375,27 @@ p {
     .right-arrow,
     .left-arrow {
         top: 20vh;
+        width: 30px;
     }
 
     .left-arrow {
-        left: -10px;
+        left: -12px;
     }
 
     .right-arrow {
-        right: -10px;
+        right: -12px;
+    }
+
+    .left-nav {
+        padding-left: 53px;
+    }
+
+    .right-nav {
+        padding-right: 53px;
+    }
+
+    .email-headshot {
+        padding-right: 27px;
     }
 }
+
