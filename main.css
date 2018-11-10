@@ -33,6 +33,7 @@ h3 {
 
 h5 {
     font-size: 16px;
+    padding-top: 25px;
 }
 
 h6 {
@@ -259,6 +260,15 @@ a:hover {
     color: white;
 }
 
+.footer-text {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.search-text {
+    margin-bottom: 2px;
+}
+
 .bottom-row {
     flex: 1;
     margin: 2%;
@@ -281,6 +291,7 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     max-width: 355px;
+    padding-bottom: 25px;
 }
 
 .link,
@@ -353,7 +364,7 @@ a:hover {
 
 .project-text {
     padding-right: 30px;
-    padding-left: 30px;
+    padding-left: 55px;
     font-family: Museo;
 }
 
@@ -406,6 +417,11 @@ a:hover {
 
     .email-headshot {
         padding-right: 27px;
+    }
+
+    .project-text {
+        padding-left: 20px;
+        padding-right: 120px;
     }
 }
 
